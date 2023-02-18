@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+
+
+    <header>
+        <h1>Restaurant Name</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#order">Order</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="menu">
+            <h2>Menu</h2>
+            <div id="image">
+
+            </div>
+            <ul id="menu-list"></ul>
+
+        </section>
+        <section id="order">
+            <h2>Order</h2>
+            <button id="order-btn" onclick="takeOrder()">Place Order</button>
+            <div id="order-status">
+            </div>
+            <button onclick="payOrder()">Pay for your order</button>
+
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Restaurant Name</p>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
